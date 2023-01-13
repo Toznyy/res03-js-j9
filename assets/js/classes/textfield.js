@@ -1,0 +1,1 @@
+class Mage extends Character {
