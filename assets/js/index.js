@@ -29,4 +29,10 @@ window.addEventListener("DOMContentLoaded", function() {
     form.addField(email);
     form.addField(password);
     form.addField(confirmPassword);
+    
+    let userInformation = document.getElementById("user-information");
+    userInformation.addEventListener("submit", function(envent) {
+        event.preventDefault();
+        form.submit();
+    });
 });

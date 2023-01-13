@@ -21,7 +21,7 @@ class Form {
     }
     
     addField(field) {
-        
+        this.#fields.push(field);
     }
     
     submit() {
