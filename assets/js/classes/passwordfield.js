@@ -2,7 +2,7 @@ class PasswordField extends Field {
     
     constructor (element) {
         
-        this.#element = element;
+        super(element);
     }
     
     validate() {
@@ -10,4 +10,5 @@ class PasswordField extends Field {
     }
 }
 
+export { PasswordField };
 import { Field } from './field.js';
